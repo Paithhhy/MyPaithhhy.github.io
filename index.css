@@ -607,6 +607,13 @@ ul li:nth-child(4) a:before {
     font-size: 18px;
 }
 @media screen and (max-width: 768px) {
+    .intro-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    justify-content: left;
+    margin-top: 150px;
+  }
   ul {
    display: flex;
    position: absolute;
@@ -668,4 +675,5 @@ ul li:nth-child(4) a:before {
   ul li:nth-child(4) a:before {
    background: #dd4b39;
   }
+
 }
